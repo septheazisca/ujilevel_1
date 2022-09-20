@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #EAEAEA;
+}
+
+nav{
+  width: 100%;
+  height: 60px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-left: 2.4%;
+  padding-right: 2.4%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+
+.logo p{
+  color: #381DFC;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.profil{
+  color: #381DFC;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.sidebar{
+  width: 19%;
+  height: 622px;
+  background-color: white;
+  box-shadow: 2px 12px 12px rgba(0, 0, 0, 0.2);
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto{
+  width: 100px;
+  height: 100px;
+  border-radius: 500px;
+  background-color: #EAEAEA;
+  justify-content: center;
+  margin-left: 28%;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+.nama{
+  font-size: 15px;
+  font-weight: bold;
+  color: #40A1FF;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.link{
+  text-align: center;
+  line-height: 50px;
+  color: #49524E;
+}
+
+.link ul li{
+  border-bottom: 1.5px solid #EAEAEA;
+}
+
+.link ul li a{
+  text-decoration: none;
+  color: #49524E;
+}
+
+.link ul li a:hover{
+  color: #40A1FF;
+  transition: .2s;
+}
+
+.kotak-kanan{
+  position: absolute;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2%;
+  left: 300px;
+  top: 100px;
+  width: 910px;
+  /* height: 430px; */
+  text-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0 0 10px#888;
+}
+
+.kotak-kanan p{
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #40A1FF;
+  border-bottom: 2px solid #10227d;
+}
+
+table{
+  padding-left: 8%;
+  padding-top: 2%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 25px;
+  color: #49524E;
+  border: none;
+  border-spacing: 0;
+  border-color: #7b84b1;
+}
+
+td{
+  padding-right: 10px;
+  width: 60px;
+  text-align: left;
+  font-size: 17px;
+  width: 127px;
+}
+
+td input{
+  padding-left: 9px;
+  padding-right: 9px;
+  width: 585px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #49524E;
+}
+
+.btn-simpan{
+  margin-bottom: 40px;
+  width: 230px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #40A1FF;
+  color: #ffff;
+  cursor: pointer;
+  border: 0px;
+}
+
+.btn-edit{
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #40A1FF;
+  color: #ffff;
+  cursor: pointer;
+  border: 0px;
+}
+
+.btn-back{
+  margin-left: 546px;
+  text-decoration: none;
+  padding: 6px 25px 6px 25px;
+  background-color: #40A1FF;
+  border-radius: 20px;
+  color: #ffff;
+  font-size: 15px;
+
+}
+
+.tbl-datamurid{
+  padding-left: 2px;
+  text-align: center;
+  width: 850px;
+  font-weight: normal;
+  
+}
+
+th{
+  font-size: 18px;
+  border-bottom: 2px solid #10227d;
+  background-color: #10227d;
+  color: #ffff;
+}
+
+.button-edit{
+  margin-left: 4px;
+  text-decoration: none;
+  padding: 5px 8px 5px 8px;
+  background-color: #10227d;
+  color: white;
+  border-radius: 10px;
+}
+
+.button-hapus{
+  margin-left: 1px;
+  text-decoration: none;
+  padding: 5px 7px 5px 7px;
+  background-color: #10227d;
+  color: white;
+  border-radius: 10px;
+}
+
+.button-edit-2{
+  margin-left: 4px;
+  text-decoration: none;
+  padding: 5px 12px 5px 12px;
+  background-color: #10227d;
+  color: white;
+  border-radius: 10px;
+}
+
+.button-hapus-2{
+  margin-left: 1px;
+  text-decoration: none;
+  padding: 5px 9px 5px 9px;
+  background-color: #10227d;
+  color: white;
+  border-radius: 10px;
+}
+
+/* .td-pendataanbuku{
+  width: 200px;
+} */
+
+/* td .td_pendataanbuku{
+  width:2000px;
+} */
