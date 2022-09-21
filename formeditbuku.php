@@ -19,7 +19,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    <?php
+    include 'formedit-buku.css';
+    ?>
+  </style>
 
   <!-- icone -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -39,7 +43,9 @@
     </div>
 
     <div class="profil">
-      <i class="fa-solid fa-user"></i>
+      <p class="hi">Hai, my name is...</p>
+      <i class="fa-solid fa-circle-user"></i>
+      <i class="fa-solid fa-bell"></i>
     </div>
   </nav>
 
@@ -52,9 +58,13 @@
       <ul>
         <li><a href="">Dashboard</a></li>
         <li><a href="pendataanmurid.html">Members Registration</a></li>
-        <li><a href="datamurid.php">Members Date Tabel</a></li>
+        <div class="lebel-datamurid">
+          <li><a href="datamurid.php">Members Date</a></li>
+        </div>
         <li><a href="pendataanbuku.html">Book Registration</a></li>
-        <li><a href="databuku.php">Book Data Table</a></li>
+        <div class="lebel-databuku">
+        <li><a href="databuku.php">Book Data</a></li>
+        </div>
         <li><a href="">About</a></li>
         <li><a href="">Contact</a></li>
       </ul>
@@ -63,7 +73,7 @@
 
   <!-- ini konten kanan -->
   <div class="kotak-kanan">
-    <p>Tambah Data Buku</p>
+    <p>Edit Data Buku</p>
     <div class="garis"></div>
     <form action="editbuku.php" method="post">
       <table class="tbl-formedit">
@@ -88,7 +98,7 @@
           <td><input value="<?php echo $pel['tahun_terbit']?>" type="text" name="tahun_terbit" required="required"></td>
         </tr>
       </table>
-      <a href="databuku.php" class="btn-back">edit</a>
+      <a href="databuku.php" class="btn-back">back</a>
       <input type="submit" name="edit" value="edit" class="btn-edit">
     </form>
   </div>
