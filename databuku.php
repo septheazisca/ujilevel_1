@@ -67,11 +67,11 @@
       <h4><a href="pendataanbuku.html">add new<i class="fa-solid fa-plus"></i></a></h4>
       <table class="tbl-data" border="1" rules="rows">
         <tr>
-          <th>No.Buku</th>
-          <th>Judul</th>
-          <th>Pengarang</th>
-          <th>Genre</th>
-          <th>Tahun Terbit</th>
+          <th>NO. BUKU</th>
+          <th>JUDUL</th>
+          <th>PENGARANG</th>
+          <th>GENRE</th>
+          <th>TAHUN TERBIT</th>
           <th>ACTION</th>
         </tr>
 
